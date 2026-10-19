@@ -28,6 +28,10 @@ The methodology was demonstrated using 1,725 buildings across Cambridge, UK.
 - Thermal anomaly detection using Gaussian Mixture Models (GMM)
 - Building retrofit potential assessment
 
+<img src="outputs/plots/lst_estimation.png" alt="LST estimation" width="600">
+
+*Fig. 1. Workflow for estimating land surface temperature (LST) from Landsat 8 imagery using the Statistical Mono-Window algorithm, combining vegetation cover, emissivity, brightness temperature, and atmospheric water vapour data.*
+
 ---
 
 ## Main Findings from the Study
@@ -40,6 +44,10 @@ The Cambridge case study found that:
 - Thermal anomalies can be reliably detected only when thermal imagery resolution is approximately 1 m/pixel or better.
 - Thermal imagery with 1–6 m/pixel resolution can identify building-scale hot areas.
 - Thermal imagery with resolutions coarser than 6 m/pixel is more suitable for urban-scale heat mapping than individual building diagnostics.
+
+<img src="outputs/plots/lst_result_cambridge.png" alt="LST result Cambridge" width="600">
+
+*Fig. 2. Satellite-derived land surface temperature (LST) of Cambridge.*
 
 ---
 
